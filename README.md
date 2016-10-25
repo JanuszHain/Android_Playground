@@ -49,6 +49,7 @@ Android application is using RxJava for async work. It can work on few threads a
 Applications for example loads relations for few people at the same time.
 
 Also I optimised loading known persons.
+https://github.com/JanuszHain/Android_Playground/blob/master/app/src/main/java/pl/janusz/hain/androidplayground/viewspresenters/persons/knownpersons/KnownPersonsPresenter.java
 Relations are firstly loaded for later use for loading persons.
 Next loads are "zipped" by RxJava. Persons to be shown are loaded concurrently to new relations for later use (for next persons load).
 This way application doesn't need to wait for relations response before loading persons, so loading times are up to 2 times faster.
