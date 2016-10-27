@@ -2,7 +2,7 @@ Android "example" playground or maybe event battlefield for testing and training
 
 Application is currently about retrieving persons and relations from database, showing known people and creating groups of people that know each other. 
 
-Screens (tablet version, phone version is the same, just without split screens, so only one fragment per screen):
+Screenshots (tablet version, phone version is the same, just without split screens, so only one fragment per screen):
 https://github.com/JanuszHain/Android_Playground/tree/master/screenshots
 
 
