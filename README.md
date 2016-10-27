@@ -35,7 +35,7 @@ https://github.com/JanuszHain/AndroidPlayground/tree/master/installation_files/h
 Import MySQL database using phpmyadmin:
 https://github.com/JanuszHain/AndroidPlayground/tree/master/installation_files/mysql_phpmyadmin_file
 
-Change IP set in variable "webServiceUrl" in class NetModule for IP on which PHP will be hosted.
+Change IP set in variable "webServiceUrl" in class NetModule on IP on which PHP will be hosted.
 https://github.com/JanuszHain/Android_Playground/blob/master/app/src/main/java/pl/janusz/hain/androidplayground/data/internet/NetModule.java
 
 After setup, after turning on XAMPP Apache and MySQL and connecting to same wifi, you should be able to connect to database and retrieve data from app!
