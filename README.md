@@ -48,7 +48,7 @@ SQL commands are not using offset in queries with LIMIT. Instead of it "last id"
 Some columns are indexed for faster searching.
 
 Android application is using RxJava for async work. It can work on few threads at once.
-Applications for example loads relations for few people at the same time.
+For example application loads relations for few people at the same time.
 
 Also I optimised loading known persons.
 https://github.com/JanuszHain/Android_Playground/blob/master/app/src/main/java/pl/janusz/hain/androidplayground/viewspresenters/persons/knownpersons/KnownPersonsPresenter.java
